@@ -27,33 +27,10 @@
     <string name="about">О Приложении</string>
     <string name="about_this_app">О приложении</string>
     <string name="latest_videos">Новые Видео</string>
-    <string name="url_latest_videos" translatable="false">http://nutritionfacts.org/videos/</string>
-    <string name="book_title" translatable="false">How Not to Die</string>
-    <string name="url_book" translatable="false">http://nutritionfacts.org/book/</string>
     <string name="donate">Поддержать</string>
-    <string name="url_donate" translatable="false">https://nutritionfacts.org/donate/</string>
     <string name="subscribe">Подписаться</string>
-    <string name="url_subscribe" translatable="false">http://nutritionfacts.org/subscribe/</string>
     <string name="open_source">Open Source</string>
-    <string name="url_open_source" translatable="false">http://nutritionfacts.org/open-source/</string>
-    <string name="nutritionfacts_title" translatable="false">nutritionfacts.org</string>
-    <string name="url_nutritionfacts" translatable="false">http://nutritionfacts.org</string>
-    <string name="name_john_slavick" translatable="false">John Slavick</string>
-    <string name="url_john_slavick" translatable="false">http://johnslavick.com</string>
-    <string name="library_activeandroid" translatable="false">ActiveAndroid</string>
-    <string name="library_android_iconify" translatable="false">android-iconify</string>
     <string name="library_butterknife">ButterKnife</string>
-    <string name="library_caldroid" translatable="false">Caldroid</string>
-    <string name="library_eventbus" translatable="false">EventBus</string>
-    <string name="library_likeanimation" translatable="false">LikeAnimation</string>
-    <string name="library_mpandroidchart" translatable="false">MPAndroidChart</string>
-    <string name="url_activeandroid" translatable="false">https://github.com/pardom/ActiveAndroid</string>
-    <string name="url_android_iconify" translatable="false">https://github.com/JoanZapata/android-iconify</string>
-    <string name="url_butterknife" translatable="false">https://github.com/JakeWharton/butterknife</string>
-    <string name="url_caldroid" translatable="false">https://github.com/roomorama/Caldroid</string>
-    <string name="url_eventbus" translatable="false">https://github.com/greenrobot/EventBus</string>
-    <string name="url_likeanimation" translatable="false">https://github.com/frogermcs/LikeAnimation/</string>
-    <string name="url_mpandroidchart" translatable="false">https://github.com/PhilJay/MPAndroidChart</string>
     <string name="permission_needed_to_write_storage">Не могу сделать резервную копию без права на запись в хранилище телефона</string>
     <string name="backup_failed">Резервное копирование не удалось</string>
     <string name="restore_failed">Не удалось восстановить данные</string>
@@ -61,16 +38,11 @@
     <string name="restore_success">Восстановление данных выполнено</string>
     <string name="restore_confirm_title">Восстановление Данных Из Резервной Копии</string>
     <string name="restore_confirm_message">Все текущие данные будут удалены перед резервным восстановлением. Продолжить?</string>
-    <string name="backup_mimetype" translatable="false">message/rfc822</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="backup">Резервная Копия Данных</string>
     <string name="food_info">Food Info</string>
     <string name="food_history">Food History</string>
-    <string name="icon_info" translatable="false">{fa-info-circle 12dp @color/gray}</string>
-    <string name="icon_calendar" translatable="false">{fa-calendar 16dp @color/gray_dark}</string>
-    <string name="num_servings_max" translatable="false">24</string>
-    <string name="icon_chart" translatable="false">{fa-bar-chart 20dp @color/gray_dark}</string>
     <string name="daily_servings_history">Выполнение Плана По Дням</string>
     <string name="no_servings_recorded">Вы не отметили ни одной порции!</string>
     <string name="task_backup_title">Копирую</string>
@@ -92,8 +64,6 @@
     <string name="task_loading_servings_history_title">Загружаю Историю Выполнения Плана</string>
     <string name="time_scale">Масштаб Времени</string>
     <string name="history_to_generate">История Для Генерации</string>
-    <string name="date_servings_star" translatable="false">{fa-star 24dp @color/gold}</string>
-    <string name="date_servings_star_large" translatable="false">{fa-star 64dp @color/gold}</string>
     <string name="welcome_to_my_daily_dozen">Приветствую Вас в Daily Dozen!</string>
     <string name="activity_welcome_text">Это приложение предназначено для ежедневного отслеживания еды, рекомендованной мной для оптимального здоровья и долголетия в моей книге How Not to Die.</string>
     <string name="dialog_ask_user_to_rate_app_title">Нравится это приложение?</string>
@@ -115,25 +85,6 @@
     <string name="metric">Метрические</string>
     <string name="vitamin_divider_text">Витамины</string>
     <string name="dialog_vitamin_explanation_text">Хотя и необязательны для выполнения ежедневного плана, витамин B12 и витамин D незаменимы для Вашего здоровья.\n\nОни включены в приложение для Вашего удобства.</string>
-
-    <!--
-    NOTE: These strings are used to created the url to take the user to the overall food videos page. These strings
-    must not be translated.
-    -->
-    <string name="food_info_videos_beans" translatable="false">beans</string>
-    <string name="food_info_videos_berries" translatable="false">berries</string>
-    <string name="food_info_videos_fruits" translatable="false">fruit</string>
-    <string name="food_info_videos_cruciferous" translatable="false">cruciferous-vegetables</string>
-    <string name="food_info_videos_greens" translatable="false">greens</string>
-    <string name="food_info_videos_vegetables" translatable="false">vegetables</string>
-    <string name="food_info_videos_flaxseeds" translatable="false">flax-seeds</string>
-    <string name="food_info_videos_nuts" translatable="false">nuts</string>
-    <string name="food_info_videos_spices" translatable="false">spices</string>
-    <string name="food_info_videos_whole_grains" translatable="false">grains</string>
-    <string name="food_info_videos_beverages" translatable="false">beverages</string>
-    <string name="food_info_videos_exercise" translatable="false">exercise</string>
-    <string name="food_info_videos_vitamin_b12" translatable="false">vitamin-b12</string>
-    <string name="food_info_videos_vitamin_d" translatable="false">vitamin-d-supplements</string>
 
     <!--
     NOTE: These strings should never be translated from English
